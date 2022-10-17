@@ -11,7 +11,6 @@ import java.util.Random;
 @RestController
 @RequestMapping("/payment")
 public class PaymentController {
-
     @Autowired
     private PaymentService service;
 
